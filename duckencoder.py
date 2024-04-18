@@ -5,7 +5,6 @@ import sys
 import getopt
 import os
 
-
 class DuckEncoder:
         @staticmethod
         def readResource(filename):
