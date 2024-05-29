@@ -8,22 +8,6 @@ import os
 class DuckEncoder:
         @staticmethod
         def readResource(filename):
-                """
-                parses a file containing key-value pairs and returns a dictionary
-                of these values. It reads lines from the file, removes comments
-                and line breaks, and splits lines into key-value pairs.
-
-                Args:
-                    filename (str): path to a file that contains key-value pairs,
-                        which are then extracted and stored in a dictionary called
-                        `result_dict`.
-
-                Returns:
-                    dict: a dictionary containing key-value pairs extracted from
-                    a text file after removing comments, lines breaks, and empty
-                    lines.
-
-                """
                 result_dict = {}
                 lines = []
                 with open(filename, "r") as f:
